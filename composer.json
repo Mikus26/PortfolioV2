@@ -41,6 +41,7 @@
         "symfony/ux-turbo": "^2.21",
         "symfony/validator": "7.1.*",
         "symfony/web-link": "7.1.*",
+        "symfony/webpack-encore-bundle": "^2.2",
         "symfony/yaml": "7.1.*",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
@@ -91,11 +92,12 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "7.1.*"
         }
     },
     "require-dev": {
+        "phpstan/phpstan": "^1.12",
         "phpunit/phpunit": "^9.5",
         "symfony/browser-kit": "7.1.*",
         "symfony/css-selector": "7.1.*",
